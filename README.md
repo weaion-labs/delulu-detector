@@ -2,9 +2,9 @@
 
 > **"Am I being delulu?" — finally, an honest answer.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Stars](https://img.shields.io/github/stars/weaion-labs/delulu-detector?style=social)](https://github.com/weaion-labs/delulu-detector)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/weaion-labs/delulu-detector/pulls)
+[![License: MIT](https://img.shields.io/badge/License-MIT-242321.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Stars](https://img.shields.io/github/stars/weaion-labs/delulu-detector?style=flat-square&color=242321)](https://github.com/weaion-labs/delulu-detector)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-242321.svg?style=flat-square)](https://github.com/weaion-labs/delulu-detector/pulls)
 
 ---
 
