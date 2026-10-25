@@ -1,6 +1,6 @@
 #!/bin/bash
 # Delulu Detector — One-line installer for Claude Code
-# Usage: curl -sSL https://raw.githubusercontent.com/weaion/weaion/main/install.sh | bash
+# Usage: curl -sSL https://raw.githubusercontent.com/weaion-labs/delulu-detector/main/install.sh | bash
 
 set -e
 
