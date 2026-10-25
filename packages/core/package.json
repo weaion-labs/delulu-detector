@@ -1,0 +1,17 @@
+{
+  "name": "@weaion/core",
+  "version": "1.0.0",
+  "description": "Core scoring engine, triggers, modes, and types for WEAION skills",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.4.0"
+  }
+}

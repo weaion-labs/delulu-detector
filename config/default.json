@@ -1,0 +1,26 @@
+{
+  "scoring": {
+    "maxScore": 10,
+    "minScore": 0,
+    "triggerWeightMultiplier": 10
+  },
+  "output": {
+    "maxVerdictSentences": 4,
+    "maxScreenshotLineWords": 20,
+    "maxRealityCheckSentences": 1,
+    "maxNextStepSentences": 1
+  },
+  "voice": {
+    "maxSlangPerResponse": 2,
+    "maxEmojiCount": 2,
+    "enableCatchphrases": true
+  },
+  "crisis": {
+    "enabled": true,
+    "keywords": ["suicide", "kill myself", "self-harm", "abuse", "assault", "rape", "domestic violence"]
+  },
+  "modes": {
+    "default": "standard",
+    "available": ["standard", "prevention", "rerate", "groupchat", "crisis"]
+  }
+}

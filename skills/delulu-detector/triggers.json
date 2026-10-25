@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "triggers": [
+    { "id": "words_over_actions", "pattern": "but he said", "weight": 0.3, "description": "Someone's words overrode their actions" },
+    { "id": "future_self_lie", "pattern": "i'll start monday", "weight": 0.25, "description": "Future self is always more disciplined" },
+    { "id": "investment_reframe", "pattern": "it's an investment", "weight": 0.2, "description": "Spending money on something that won't pay back" },
+    { "id": "busy_excuse", "pattern": "they're just busy", "weight": 0.25, "description": "Busy people still send memes" },
+    { "id": "nobody_done_before", "pattern": "nobody has done this before", "weight": 0.2, "description": "Usually means nobody wanted to" },
+    { "id": "exposure_myth", "pattern": "i just need exposure", "weight": 0.15, "description": "Exposure doesn't pay rent" },
+    { "id": "basically_together", "pattern": "we're basically together", "weight": 0.35, "description": "If you say 'basically,' you're not" },
+    { "id": "do_it_all_at_once", "pattern": "i'll do it all at once", "weight": 0.25, "description": "You won't. You never do." },
+    { "id": "potential_myth", "pattern": "they'll see my potential", "weight": 0.2, "description": "They see your resume, not potential" },
+    { "id": "different_this_time", "pattern": "it's different this time", "weight": 0.3, "description": "Same thing, better lighting" },
+    { "id": "story_views_love", "pattern": "watched my story", "weight": 0.3, "description": "Story views are not a love language" },
+    { "id": "not_ready_but", "pattern": "not ready for a relationship", "weight": 0.35, "description": "They said the words. Believe them." },
+    { "id": "uber_for_x", "pattern": "the next uber", "weight": 0.15, "description": "Phrase that should be retired" },
+    { "id": "influencer_said", "pattern": "the influencer said", "weight": 0.2, "description": "Influencer got commission, you got receipt" },
+    { "id": "self_deprecating_fishing", "pattern": "i'm so delusional", "weight": 0.1, "description": "Fishing for validation" }
+  ]
+}

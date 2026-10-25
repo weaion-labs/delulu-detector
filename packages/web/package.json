@@ -1,0 +1,11 @@
+{
+  "name": "@weaion/web",
+  "version": "1.0.0",
+  "description": "Interactive web demo for WEAION skills",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "build": "echo 'static site, no build needed'",
+    "test": "echo 'no tests yet'"
+  },
+  "dependencies": {}
+}

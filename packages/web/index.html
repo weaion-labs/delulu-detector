@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delulu Detector — WEAION</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <header>
+    <div class="logo">
+      <span class="logo-icon">🎯</span>
+      <span class="logo-text">WEAION</span>
+    </div>
+    <nav>
+      <a href="https://github.com/weaion/weaion" target="_blank" rel="noopener">GitHub</a>
+      <a href="#how-it-works">How it works</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Delulu <span class="gradient-text">Detector</span></h1>
+      <p class="subtitle">Paste your situationship, plan, or "am I being delulu?" moment. Get rated 0-10 with zero mercy and maximum love.</p>
+    </section>
+
+    <section class="detector">
+      <div class="input-card">
+        <textarea id="input" placeholder="e.g. He said he's not ready for a relationship but he still texts me every day and likes all my posts. We're basically together right?" rows="4"></textarea>
+        <div class="input-footer">
+          <div class="mode-selector">
+            <button class="mode-btn active" data-mode="standard">Standard</button>
+            <button class="mode-btn" data-mode="prevention">Prevention</button>
+            <button class="mode-btn" data-mode="groupchat">Group Chat</button>
+          </div>
+          <button id="detect-btn" class="detect-btn">Detect My Delulu →</button>
+        </div>
+      </div>
+
+      <div id="result" class="result-card hidden">
+        <div class="result-header">
+          <div class="score-display">
+            <span id="score" class="score-number">0</span>
+            <span class="score-divider">/</span>
+            <span class="score-total">10</span>
+          </div>
+          <div class="result-meta">
+            <span id="label" class="label">Locked In</span>
+            <span id="type" class="type-badge">General Delulu</span>
+          </div>
+        </div>
+
+        <div class="result-body">
+          <p id="verdict" class="verdict"></p>
+
+          <div class="screenshot-line">
+            <span class="screenshot-icon">📸</span>
+            <span id="screenshot" class="screenshot-text"></span>
+          </div>
+
+          <div class="reality-check">
+            <span class="rc-icon">🧠</span>
+            <span id="reality" class="rc-text"></span>
+          </div>
+
+          <div class="next-step">
+            <span class="ns-icon">👉</span>
+            <span id="nextstep" class="ns-text"></span>
+          </div>
+        </div>
+
+        <div class="result-footer">
+          <button id="copy-btn" class="copy-btn">Copy screenshot line</button>
+          <button id="reset-btn" class="reset-btn">Try another</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+      <h2>How it works</h2>
+      <div class="steps">
+        <div class="step">
+          <span class="step-num">01</span>
+          <h3>Paste your situation</h3>
+          <p>A text, a plan, a "he said he'd change" moment, a job offer. Anything.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">02</span>
+          <h3>Get rated 0-10</h3>
+          <p>On the delulu scale. With a type, a verdict, and zero mercy.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">03</span>
+          <h3>Get your screenshot line</h3>
+          <p>One quotable sentence. The thing you post. The meme.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">04</span>
+          <h3>Get one reality check</h3>
+          <p>One sentence. The truth you already knew but didn't want to hear.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="examples">
+      <h2>Try these</h2>
+      <div class="example-chips">
+        <button class="chip" data-text="He said he's not ready for a relationship but he still texts me every day and likes all my posts. We're basically together right?">Situationship</button>
+        <button class="chip" data-text="I'm going to learn piano, get fit, start a podcast, and learn Spanish. All in the next 3 months. I have a full-time job.">Hustle</button>
+        <button class="chip" data-text="I bought $200 worth of skincare because the influencer said it's an investment in myself. My rent is due next week.">Financial</button>
+        <button class="chip" data-text="My friend hasn't texted me back in 3 weeks but she's probably just busy. We're still really close.">Friendship</button>
+        <button class="chip" data-text="I'm going to start going to the gym 6 days a week and run a half marathon in 2 months. I haven't exercised in 2 years.">Fitness</button>
+        <button class="chip" data-text="My startup idea is going to be the next Uber but for dog walking. Nobody has done this before.">Creative</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built by <a href="https://github.com/weaion/weaion">WEAION</a> · MIT License · <a href="https://github.com/weaion/weaion">Star on GitHub ⭐</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
