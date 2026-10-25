@@ -12,7 +12,7 @@
     { "id": "potential_myth", "pattern": "they'll see my potential", "weight": 0.2, "description": "They see your resume, not potential" },
     { "id": "different_this_time", "pattern": "it's different this time", "weight": 0.3, "description": "Same thing, better lighting" },
     { "id": "story_views_love", "pattern": "watched my story", "weight": 0.3, "description": "Story views are not a love language" },
-    { "id": "not_ready_but", "pattern": "not ready for a relationship", "weight": 0.35, "description": "They said the words. Believe them." },
+    { "id": "not_ready_but", "pattern": "not ready", "weight": 0.35, "description": "They said the words. Believe them." },
     { "id": "uber_for_x", "pattern": "the next uber", "weight": 0.15, "description": "Phrase that should be retired" },
     { "id": "influencer_said", "pattern": "the influencer said", "weight": 0.2, "description": "Influencer got commission, you got receipt" },
     { "id": "self_deprecating_fishing", "pattern": "i'm so delusional", "weight": 0.1, "description": "Fishing for validation" }

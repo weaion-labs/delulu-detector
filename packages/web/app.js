@@ -12,7 +12,7 @@ const TRIGGERS = [
   { id: "potential_myth", pattern: "they'll see my potential", weight: 0.2 },
   { id: "different_this_time", pattern: "it's different this time", weight: 0.3 },
   { id: "story_views_love", pattern: "watched my story", weight: 0.3 },
-  { id: "not_ready_but", pattern: "not ready for a relationship", weight: 0.35 },
+  { id: "not_ready_but", pattern: "not ready", weight: 0.35 },
   { id: "uber_for_x", pattern: "the next uber", weight: 0.15 },
   { id: "influencer_said", pattern: "the influencer said", weight: 0.2 },
 ];

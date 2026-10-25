@@ -73,7 +73,7 @@ export const TRIGGERS: DeluluTrigger[] = [
   },
   {
     id: "not_ready_but",
-    pattern: "not ready for a relationship",
+    pattern: "not ready",
     description: "They said the words. Believe them.",
     weight: 0.35,
   },
