@@ -31,14 +31,6 @@ jobs:
       - name: Build
         run: npm run build
 
-  deploy-web:
-    needs: test
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-    steps:
-      - uses: actions/checkout@v4
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./packages/web
+  # deploy-web removed: requires write permissions and exposes account name.
+  # To deploy the web demo, enable GitHub Pages manually in repo settings
+  # and point it to the packages/web folder.
