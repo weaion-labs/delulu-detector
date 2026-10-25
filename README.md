@@ -2,10 +2,10 @@
 
 > **Gen-Z-flavored AI skills that are actually useful.**
 
-[![CI](https://github.com/weaion/weaion/actions/workflows/ci.yml/badge.svg)](https://github.com/weaion/weaion/actions/workflows/ci.yml)
+[![CI](https://github.com/weaion-labs/weaion/actions/workflows/ci.yml/badge.svg)](https://github.com/weaion-labs/weaion/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Stars](https://img.shields.io/github/stars/weaion/weaion?style=social)](https://github.com/weaion/weaion)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/weaion/weaion/pulls)
+[![Stars](https://img.shields.io/github/stars/weaion-labs/weaion?style=social)](https://github.com/weaion-labs/weaion)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/weaion-labs/weaion/pulls)
 
 WEAION is an open-source collection of AI skills, tools, and utilities built for real people — not just developers. Every skill ships with a personality, a scoring system, and a reason to screenshot it.
 
@@ -15,7 +15,7 @@ WEAION is an open-source collection of AI skills, tools, and utilities built for
 
 ```bash
 # Clone the repo
-git clone https://github.com/weaion/weaion.git
+git clone https://github.com/weaion-labs/weaion.git
 cd weaion
 
 # Install the Delulu Detector skill

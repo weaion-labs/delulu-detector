@@ -5,7 +5,7 @@
 set -e
 
 SKILL_DIR="$HOME/.claude/skills/delulu-detector"
-SKILL_URL="https://raw.githubusercontent.com/weaion/weaion/main/skills/delulu-detector/SKILL.md"
+SKILL_URL="https://raw.githubusercontent.com/weaion-labs/weaion/main/skills/delulu-detector/SKILL.md"
 
 echo "🎯 Installing Delulu Detector skill..."
 

@@ -29,7 +29,7 @@ Ask the user which platform they use:
 
 2. Download the skill file:
    ```
-   curl -sL https://raw.githubusercontent.com/weaion/weaion/main/skills/delulu-detector/SKILL.md -o ~/.claude/skills/delulu-detector/SKILL.md
+   curl -sL https://raw.githubusercontent.com/weaion-labs/weaion/main/skills/delulu-detector/SKILL.md -o ~/.claude/skills/delulu-detector/SKILL.md
    ```
 
 3. Verify the file exists:
@@ -42,7 +42,7 @@ Ask the user which platform they use:
 ## Step 2B: Claude Desktop / Claude.ai (manual paste)
 
 1. Fetch the SKILL.md content from:
-   `https://raw.githubusercontent.com/weaion/weaion/main/skills/delulu-detector/SKILL.md`
+   `https://raw.githubusercontent.com/weaion-labs/weaion/main/skills/delulu-detector/SKILL.md`
 
 2. Tell the user:
    - Open Claude Desktop or Claude.ai
@@ -60,7 +60,7 @@ Follow Step 2B exactly. Claude.ai web uses Projects the same way as Claude Deskt
 ## Step 2D: Cursor
 
 1. Fetch the SKILL.md content from:
-   `https://raw.githubusercontent.com/weaion/weaion/main/skills/delulu-detector/SKILL.md`
+   `https://raw.githubusercontent.com/weaion-labs/weaion/main/skills/delulu-detector/SKILL.md`
 
 2. Tell the user:
    - Open Cursor settings
